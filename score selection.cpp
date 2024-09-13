@@ -7,7 +7,7 @@ using namespace std;
     cout<< "Silahkan masukkan nilai anda : " ;
     cin>> nilai;
 
-    if (nilai == 90)
+    if (nilai >= 90)
         cout<< "Selamat anda mendapat nilai A" ;
     else if (nilai >= 80 && nilai <= 89 )
         cout<< "Anda mendapat nilai B " ;
